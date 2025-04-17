@@ -14,7 +14,7 @@ async function bootstrap() {
       },
     },
   );
-
+  console.log('Hola mundo cruel');
   app.useGlobalPipes(
     new ValidationPipe({
       whitelist: true,
